@@ -1,0 +1,25 @@
+{
+  "wishlist": [
+    {
+      "name": "Porsche 911 GT3RS",
+      "type": "auto",
+      "description": "Myślę, że klasyk jeśli chodzi o prezenty",
+      "link": "https://www.porsche.com/poland/models/911/911-gt3-rs/911-gt3-rs/",
+      "details": "Bo kto nie lubi 700 koni w pakiecie i bólu pleców gratis?"
+    },
+    {
+      "name": "Ducati Panigale V4 R",
+      "type": "motocykl",
+      "description": "Najszybszy sposób, żeby stracić prawa jazdy w trzy dni",
+      "link": "https://ducatipolska.pl/pl/motocykle/panigale/panigale-v4-r",
+      "details": "Bo czasem człowiek chce posłuchać muzyki — najlepiej takiej, która ma 16 tysięcy obrotów."
+    },
+    {
+      "name": "Yamaha R1 Race",
+      "type": "motocykl",
+      "description": "Brzmi jak odkurzacz na sterydach — ale szybki",
+      "link": "https://www.yamaha-motor.eu/pl/pl/motorcycles/supersport/pdp/r1-race/",
+      "details": "Bo sąsiedzi i tak mnie lubią, więc trochę hałasu im nie zaszkodzi."
+    }
+  ]
+}

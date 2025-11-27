@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wishlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="wishlist.xsd">
+    <item>
+        <name>Porsche 911 GT3RS</name>
+        <type>auto</type>
+        <description>Myślę, że klasyk jeśli chodzi o prezenty</description>
+        <link>https://www.porsche.com/poland/models/911/911-gt3-rs/911-gt3-rs/</link>
+        <details>Bo kto nie lubi 700 koni w pakiecie i bólu pleców gratis?</details>
+    </item>
+    <item>
+        <name>Ducati Panigale V4 R</name>
+        <type>motocykl</type>
+        <description>Najszybszy sposób, żeby stracić prawa jazdy w trzy dni</description>
+        <link>https://ducatipolska.pl/pl/motocykle/panigale/panigale-v4-r</link>
+        <details>Bo czasem człowiek chce posłuchać muzyki — najlepiej takiej, która ma 16 tysięcy obrotów.</details>
+    </item>
+    <item>
+        <name>Yamaha R1 Race</name>
+        <type>motocykl</type>
+        <description>Brzmi jak odkurzacz na sterydach — ale szybki</description>
+        <link>https://www.yamaha-motor.eu/pl/pl/motorcycles/supersport/pdp/r1-race/</link>
+        <details>Bo sąsiedzi i tak mnie lubią, więc trochę hałasu im nie zaszkodzi.</details>
+    </item>
+</wishlist>

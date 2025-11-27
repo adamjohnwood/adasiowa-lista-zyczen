@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adasiowa lista życzeń</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        header, main, footer{
+            background-color: gainsboro;
+            width: 60vw;
+            max-width: 800px;
+            padding: 25px;
+            margin: 25px auto;
+            border-radius: 25px;
+        }
+        img{
+            width: 350px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+        article{
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h3>Adasiowa Lista Życzeń</h3>
+    <p>Wybierz sobie co mi kupić:</p>
+</header>
+
+<main>
+    <form id="wishlist">
+
+        <article>
+            <h3>Porsche 911 GT3RS</h3>
+            <img src="/imgs/porsche.png" alt="Porsche 911 GT3 RS – sportowe auto">
+            <p>Myślę, że klasyk jeśli chodzi o prezenty</p>
+            <a href="https://www.porsche.com/poland/models/911/911-gt3-rs/911-gt3-rs/" target="_blank">Link</a>
+            <p>Kliknij, aby wybrać</p>
+            <label><input type="checkbox" name="item" value="Porsche 911 GT3RS"> Dodaj do listy</label>
+            <details>
+                <summary>Dlaczego Porsche 911 GT3RS to idealny prezent?</summary>
+                <p>Bo kto nie lubi 700 koni w pakiecie i bólu pleców gratis?</p>
+            </details>
+
+        </article>
+
+        <article>
+            <h3>Ducati Panigale V4 R</h3>
+            <img src="/imgs/ducati.jpg" alt="Ducati Panigale V4 R – motocykl">
+            <p>Najszybszy sposób, żeby stracić prawa jazdy w trzy dni</p>
+            <a href="https://ducatipolska.pl/pl/motocykle/panigale/panigale-v4-r" target="_blank">Link</a>
+            <p>Kliknij, aby wybrać</p>
+            <label><input type="checkbox" name="item" value="Ducati Panigale V4 R"> Dodaj do listy</label>
+            <details>
+                <summary>Dlaczego Ducati Panigale V4 R to dobry pomysł?</summary>
+                <p>Bo czasem człowiek chce posłuchać muzyki — najlepiej takiej, która ma 16 tysięcy obrotów.</p>
+            </details>
+
+        
+        </article>
+
+        <article>
+            <h3>Yamaha R1 Race</h3>
+            <img src="/imgs/yamaha.jpg" alt="Yamaha R1 Race – motocykl">
+            <p>Brzmi jak odkurzacz na sterydach — ale szybki</p>
+            <a href="https://www.yamaha-motor.eu/pl/pl/motorcycles/supersport/pdp/r1-race/" target="_blank">Link</a>
+            <p>Kliknij, aby wybrać</p>
+            <label><input type="checkbox" name="item" value="Yamaha R1 Race"> Dodaj do listy</label>
+            <details>
+                <summary>Dlaczego Yamaha R1 Race to świetny wybór?</summary>
+                <p>Bo sąsiedzi i tak mnie lubią, więc trochę hałasu im nie zaszkodzi.</p>
+            </details>
+
+        
+        </article>
+
+        <button type="button" onclick="alert('Dzięki za donate!')">
+            Wyślij donate
+        </button>
+    </form>
+</main>
+
+<footer>
+    Gdańsk, 2025
+</footer>
+
+</body>
+</html>
